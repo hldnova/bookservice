@@ -1,0 +1,11 @@
+bin
+out/
+build
+.gradle
+.metadata
+.project
+.settings
+.classpath
+.idea
+.ivy2
+gradle
