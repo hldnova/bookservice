@@ -7,7 +7,7 @@ pipeline {
       }
     }
     stage('Build') {
-      when { changeset "src/*" }
+      when { changeset "src/**" }
       steps { 
         sh './gradlew build'
       }
